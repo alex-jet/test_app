@@ -1,16 +1,8 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Flask Intro</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet"
-              id="bootstrap-css">
-    </head>
-    <body>
-        <div class="container">
-            <h1>Welcome to Flask!</h1>
-            <br>
-            <p>Click <a href="/">here</a> to go home.</p>
-        </div>
-    </body>
-</html>
+{% extends "base.html" %}
+{% block content %}
+
+<h1>Welcome to Flask!</h1>
+<br>
+<p>Click <a href="/">here</a> to go home.</p>
+
+{% endblock %}
